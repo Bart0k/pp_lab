@@ -20,4 +20,4 @@ int main() {
 		else {
 			cout << "No corelation";
 		}
-}
+} 
