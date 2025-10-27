@@ -1,10 +1,21 @@
-﻿// Lab3.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
+﻿
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    int a, b;
+    cout << "Give number A: ";
+    cin >> a;
+    cout << "Give number B: ";
+    cin >> b;
+    
+    if (a == b) {
+        cout << "A is equal to B";
+    }
+    else if (a > b) {
+        cout << "A is greater than B";
+    }
+    else {
+        cout << "B is greater than A";
+    }
 }
-
