@@ -77,21 +77,55 @@ using namespace std;
 
 //zad 9 i 10
 
-int main() {
-	int n, m=0;
-	cout << "Give a number: ";
-	cin >> n;
-	if (n == 0) {
-		cout << "You cannot divide by 0!" << endl;
-	}
-	for (int i = 0; i <= 100; i++) {
-		if (i % n == 0) {
-			cout << i << endl;
-			m = m++;
-		}
-		else {
-			continue;
-		}
-	}
-	cout << "Your number divides by " << m << " times in range [1;100]" << endl;
-}
+//int main() {
+//	int n, m=0;
+//	cout << "Give a number: ";
+//	cin >> n;
+//	if (n == 0) {
+//		cout << "You cannot divide by 0!" << endl;
+//	}
+//	for (int i = 0; i <= 100; i++) {
+//		if (i % n == 0) {
+//			cout << i << endl;
+//			m = m++;
+//		}
+//		else {
+//			continue;
+//		}
+//	}
+//	cout << "Your number divides by " << m << " times in range [1;100]" << endl;
+//}
+
+//zad 11 - niedokończone
+
+//int main() {
+//
+//	int a, b;
+//	cout << "Give number a: ";
+//	cin >> a;
+//	cout << "Give number b: ";
+//	cin >> b;
+//	if (a > b) {
+//
+//	}
+//
+//}
+
+//zad 12
+
+//int main() {
+//	int n;
+//	float m = 0;
+//	cout << "Give a number n: ";
+//	cin >> n;
+//	for (int i = 0; i <= n; i++) {
+//		//cout << i << endl;
+//		m = m + i;
+//	}
+//	//cout << m;
+//	m = m / n;
+//	cout << m;
+//}
+
+
+
