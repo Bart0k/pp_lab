@@ -9,7 +9,8 @@ int main() {
 	cout << "Give number b: ";
 	cin >> b;
 
-	cin >> "Enter sign: ";
+	cout << "Enter sign: ";
+	cin >> sign;
 
 	if (sign == "+") {
 		cout << a << sign << b << "=" << a + b;
