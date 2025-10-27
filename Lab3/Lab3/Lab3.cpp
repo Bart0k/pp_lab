@@ -10,12 +10,15 @@ int main()
     cin >> b;
     
     if (a == b) {
+        cout << a << "=" << b << endl;
         cout << "A is equal to B";
     }
     else if (a > b) {
+        cout << a << ">" << b << endl;
         cout << "A is greater than B";
     }
     else {
+        cout << a << "<" << b << endl;
         cout << "B is greater than A";
     }
 }
