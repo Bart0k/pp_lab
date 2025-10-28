@@ -11,7 +11,7 @@ int main()
     check(n);
 }
 void check(int n) {
-    for (int i = 1; i <= 100; i++) {
+    for (int i = 1; i <= n; i++) {
         if (n % i == 0) {
             cout << i << endl;
         }
