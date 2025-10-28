@@ -14,7 +14,6 @@ int main()
 
 }
 void great(int a, int b) {
-    //int c;
     if (a > b) {
         cout << "A is greater than B";
     }
